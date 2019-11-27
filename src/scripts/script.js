@@ -1,5 +1,5 @@
 function fetchGiphs() {
-  let url = `https://api.giphy.com/v1/gifs/search?&api_key=kkz9bHT772F1MVitwpOpVKXVyf3mumHS&limit=8&q=`
+  let url = `http://api.giphy.com/v1/gifs/search?&api_key=kkz9bHT772F1MVitwpOpVKXVyf3mumHS&limit=8&q=`
   const query = document.querySelector('.form__input').value.trim();
   url = url.concat(query);
 
